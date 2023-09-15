@@ -77,6 +77,8 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
     - name: Run tests
+      env: 
+        PRODUCTION__API_KEY: ${{secrets.PRODUCTION__API_KEY}}
       run: dotnet test --configuration Release --filter TestCategory=Execute
 
   deploy:
