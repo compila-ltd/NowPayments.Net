@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33603.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NowPayments.Net", "NowPayments.Net\NowPayments.Net.csproj", "{EB93C5B2-254F-40C8-839D-6DBDB856F91A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NowPayments.NetTests", "NowPayments.NetTests\NowPayments.NetTests.csproj", "{AEB74E90-DBFE-4123-93F7-50A7DFA7BC48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NowPayments.Net.ConsoleTests", "NowPayments.Net.ConsoleTests\NowPayments.Net.ConsoleTests.csproj", "{81AB5BA4-4CA0-4BAE-B32C-54FDFF79708B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7C35FCF3-6AA0-4B84-B051-FBEFA4CC7086}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\publish-nugetorg.yml = .github\workflows\publish-nugetorg.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB93C5B2-254F-40C8-839D-6DBDB856F91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB93C5B2-254F-40C8-839D-6DBDB856F91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB93C5B2-254F-40C8-839D-6DBDB856F91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB93C5B2-254F-40C8-839D-6DBDB856F91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB74E90-DBFE-4123-93F7-50A7DFA7BC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB74E90-DBFE-4123-93F7-50A7DFA7BC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB74E90-DBFE-4123-93F7-50A7DFA7BC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB74E90-DBFE-4123-93F7-50A7DFA7BC48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AB5BA4-4CA0-4BAE-B32C-54FDFF79708B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AB5BA4-4CA0-4BAE-B32C-54FDFF79708B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AB5BA4-4CA0-4BAE-B32C-54FDFF79708B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AB5BA4-4CA0-4BAE-B32C-54FDFF79708B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9674F4DB-8B3B-4DBE-A2DD-4D56D7FB38BF}
+	EndGlobalSection
+EndGlobal
